@@ -1,5 +1,4 @@
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+# _config.yml
+title: PastaGoa
+markdown: GFM
 plugins: []
