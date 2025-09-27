@@ -1,6 +1,6 @@
 # India → World Pasta/Noodles Export Opportunity (Apr–Sep 2025)
 
-**Source:** Your uploaded shipment-level dataset (HS 1902; 4,579 rows; 81 destination countries).
+**Source:**(HS 1902; 4,579 rows; 81 destination countries).
 
 ## Executive summary
 - Total exports in the file: **$6,170,002 FOB USD** across **5,851,361 units** (Apr–Sep 2025).
