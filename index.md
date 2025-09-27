@@ -8,6 +8,7 @@ layout: default
 **Source:** (HS 1902; 4,579 rows; 81 destination countries).
 
 ## Executive summary
+
 - Total exports in the file: **$6,170,002 FOB USD** across **5,851,361 units** (Apr–Sep 2025).
 - Top market by value: **United States** (share **33.6%**).
 - Market concentration: Top 5 countries = **69.8%** of value; Top 10 = **90.3%**.
@@ -15,41 +16,42 @@ layout: default
 - Seasonality: Peak **July** by value; dip in **September** (partial month).
 
 ### Strategic takeaways
+
 - **Premium markets:** US/UK/Australia/Canada show higher median unit values; position SKUs and brand stories accordingly.
 - **Scale markets:** Mexico/UAE/Oman/Bhutan move volume at lower unit values; win with cost, pack-size, and route-to-market.
 - **Portfolio gap:** 'Pasta' labels are a small share (3–4%); if dry pasta is your focus, growth headroom exists outside noodles/vermicelli.
 
 ## Geography: where demand (and margin) live
 
-| COUNTRY              |   total_fob_usd |       total_qty | share_usd |
-|:---------------------|----------------:|----------------:|:----------|
-| UNITED STATES        |      2.0732e+06 |          489469 | 33.6%     |
-| MEXICO               |           670127|      3.4105e+06 | 10.9%     |
-| CANADA               |           577748|          202210 | 9.4%      |
-| AUSTRALIA            |           513591|          104343 | 8.3%      |
-| UNITED ARAB EMIRATES |           469055|          391264 | 7.6%      |
-| OMAN                 |           391723|          333111 | 6.3%      |
-| NEPAL                |           300324|           72426 | 4.9%      |
-| UNITED KINGDOM       |           290478|          73692.2| 4.7%      |
-| SINGAPORE            |           167825|          80129.8| 2.7%      |
-| BHUTAN               |           120393|          341160 | 2.0%      |
+| COUNTRY              |   total_fob_usd |   total_qty | share_usd |
+|:---------------------|----------------:|------------:|:----------|
+| UNITED STATES        |      2.0732e+06 |      489469 | 33.6%     |
+| MEXICO               |           670127|   3.4105e+06| 10.9%     |
+| CANADA               |           577748|      202210 | 9.4%      |
+| AUSTRALIA            |           513591|      104343 | 8.3%      |
+| UNITED ARAB EMIRATES |           469055|      391264 | 7.6%      |
+| OMAN                 |           391723|      333111 | 6.3%      |
+| NEPAL                |           300324|       72426 | 4.9%      |
+| UNITED KINGDOM       |           290478|      73692.2| 4.7%      |
+| SINGAPORE            |           167825|      80129.8| 2.7%      |
+| BHUTAN               |           120393|      341160 | 2.0%      |
 
 **Pricing tiers (shipment-level USD/unit, outliers winsorized 1–99%)**
 
-| COUNTRY              |    p25 |    p50 |    p75 | shipments |
-|:---------------------|------:|------:|------:|---------:|
-| UNITED KINGDOM       |  2.28564 | 13.1803 | 21.4551 | 224 |
-| AUSTRALIA            |  1.30262 | 12.1318 | 19.2064 | 448 |
-| NETHERLANDS          |  0.465745| 11.7116 | 16.8395 | 78  |
-| UNITED STATES        |  1.49852 |  8.92719| 19.2    | 1097|
-| CANADA               |  1.21335 |  8.30947| 17.4473 | 324 |
-| NEPAL                |  7.10059 |  7.79221|  8.57307| 189 |
-| KUWAIT               |  0.941741|  2.30397| 20.8429 | 57  |
-| SINGAPORE            |  0.917888|  1.75285| 16.6306 | 207 |
-| UNITED ARAB EMIRATES |  0.485317|  1.65291| 13.2949 | 269 |
-| BHUTAN               |  0.592288|  1.16839| 10.0466 | 399 |
-| OMAN                 |  0.575524|  1.06666|  1.26021| 81  |
-| MEXICO               |  0.157   |  0.219  |  0.22   | 45  |
+| COUNTRY              |     p25 |     p50 |     p75 | shipments |
+|:---------------------|--------:|--------:|--------:|---------:|
+| UNITED KINGDOM       |  2.28564| 13.1803 | 21.4551 |      224 |
+| AUSTRALIA            |  1.30262| 12.1318 | 19.2064 |      448 |
+| NETHERLANDS          | 0.465745| 11.7116 | 16.8395 |       78 |
+| UNITED STATES        |  1.49852|  8.92719| 19.2    |     1097 |
+| CANADA               |  1.21335|  8.30947| 17.4473 |      324 |
+| NEPAL                |  7.10059|  7.79221|  8.57307|      189 |
+| KUWAIT               | 0.941741|  2.30397| 20.8429 |       57 |
+| SINGAPORE            | 0.917888|  1.75285| 16.6306 |      207 |
+| UNITED ARAB EMIRATES | 0.485317|  1.65291| 13.2949 |      269 |
+| BHUTAN               | 0.592288|  1.16839| 10.0466 |      399 |
+| OMAN                 | 0.575524|  1.06666|  1.26021|       81 |
+| MEXICO               |    0.157|    0.219|    0.22 |       45 |
 
 ## Product mix and positioning
 
@@ -139,15 +141,15 @@ layout: default
 | G D FOODS MANUFACTURING INDIA PRIVATE LIMITED |            31905.1|     14   |
 
 ## Risks & caveats
+
 - Dataset reflects Apr–Sep 2025 only; broader seasonality and country-specific compliance cycles may differ.
 - 'Unit' and 'Std Unit' differ by SKU; use **uv_usd_per_std_unit** for cross-country price karma when operationalizing.
 - Unit values include mixed pack sizes and noodle/pasta variants; treat SKU-standardization as a follow-up for precise pricing.
 
 ## Go-to-market playbook (quick)
+
 - **US/UK/AU/CA:** premium noodles & value-added formats; emphasize Indian flavors; retail + ethnic wholesale; target unit value > $3.5/unit.
 - **Mexico/UAE/Oman/Bhutan:** family/bulk SKUs; optimize EXW/FOB cost, inland logistics, and duty; target unit value $0.3–$1.5.
 - **Portfolio build:** Expand *Pasta* (macaroni/penne) SKUs with fortified/protein claims to raise share beyond 3–4%.
 - **Routing:** Consolidate through **Nhava Sheva Sea** (largest share) while testing alternative ICDs for hinterland consolidation.
 - **Accounts:** Prioritize the largest active buyers in your file for faster onboarding.
-
-
