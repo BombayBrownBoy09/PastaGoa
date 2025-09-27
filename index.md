@@ -3,14 +3,6 @@ title: India → World Pasta/Noodles Export Opportunity (Apr–Sep 2025)
 layout: default
 ---
 
-<style>
-table{border-collapse:collapse;width:100%;margin:0.75rem 0;}
-th,td{border:1px solid #d0d7de;padding:6px 8px;vertical-align:top;}
-thead th{background:#f6f8fa;text-align:left;}
-tbody tr:nth-child(even){background:#fbfcfd;}
-.caption{font-weight:600;margin-top:1rem;}
-</style>
-
 # India → World Pasta/Noodles Export Opportunity (Apr–Sep 2025)
 
 **Source:** (HS 1902; 4,579 rows; 81 destination countries). All **quantities are standardized to kilograms (kg)** using `STD QUANTITY`.
