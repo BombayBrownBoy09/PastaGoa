@@ -166,19 +166,25 @@ layout: default
   </tbody>
 </table>
 
-Sorted List of top importers from the United States:
-| Rank | Consignee Name                    | Consignee Address                                     | FOB USD (approx) |
-| ---- | --------------------------------- | ----------------------------------------------------- | ---------------- |
-| 1    | **RAJA FOODS LLC**                | 3700 ROSE ST, SCHILLER PARK, IL, USA                  | 152,992          |
-| 2    | **GURUDEV IMPORTS INV**           | 90 STULTS ROAD, DAYTON, NJ 08810, USA                 | 128,873          |
-| 3    | **BABCO FOODS INTERNATIONAL LLC** | 238 ST. NICHOLAS AVE, SOUTH PLAINFIELD, NJ 07080, USA | 92,879           |
-| 4    | **ZEE TRADERS LLC 9761**          | BUTTERFLY TRAIL, FRISCO, TX 75035, USA                | 84,503           |
-| 5    | **PREMIER FOOD SUPPLIES LLC**     | 1783–1801 NORTH AMERICA TROY, MI, USA                 | 82,771           |
-| 6    | **TO THE ORDER OF**               | U.S.A., USA                                           | 72,857           |
-| 7    | **SUBB Z MANDI LLC**              | CLARKSBURG, MD 20871, USA                             | 62,885           |
-| 8    | **TO ORDER**                      | USA, USA                                              | 58,305           |
-| 9    | **TO ORDER**                      | UNITED STATES                                         | 55,661           |
-| 10   | **SUNRISE SPICES LLC**            | 2265 E OAKLAND ST, CHANDLER, AZ 85225, USA            | 55,224           |
+## Key U.S. consignees active in this window
+<table>
+  <thead>
+    <tr><th>CONSIGNEE NAME</th><th>CONSIGNEE ADDRESS</th><th>total_fob_usd</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>RAJA FOODS LLC</td><td>3700 ROSE ST, SCHILLER PARK, IL, USA</td><td>152,992</td></tr>
+    <tr><td>GURUDEV IMPORTS INV</td><td>90 STULTS ROAD, DAYTON, NJ 08810, USA</td><td>128,873</td></tr>
+    <tr><td>BABCO FOODS INTERNATIONAL LLC</td><td>238 ST. NICHOLAS AVE, SOUTH PLAINFIELD, NJ 07080, USA</td><td>92,879</td></tr>
+    <tr><td>ZEE TRADERS LLC 9761</td><td>BUTTERFLY TRAIL, FRISCO, TX 75035, USA</td><td>84,503</td></tr>
+    <tr><td>PREMIER FOOD SUPPLIES LLC</td><td>1783–1801 NORTH AMERICA TROY, MI, USA</td><td>82,771</td></tr>
+    <tr><td>TO THE ORDER OF</td><td>U.S.A., USA</td><td>72,857</td></tr>
+    <tr><td>SUBB Z MANDI LLC</td><td>CLARKSBURG, MD 20871, USA</td><td>62,885</td></tr>
+    <tr><td>TO ORDER</td><td>USA, USA</td><td>58,305</td></tr>
+    <tr><td>TO ORDER</td><td>UNITED STATES</td><td>55,661</td></tr>
+    <tr><td>SUNRISE SPICES LLC</td><td>2265 E OAKLAND ST, CHANDLER, AZ 85225, USA</td><td>55,224</td></tr>
+  </tbody>
+</table>
+
 
 
 ## Risks & caveats
