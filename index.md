@@ -166,6 +166,21 @@ layout: default
   </tbody>
 </table>
 
+Sorted List of top importers from the United States:
+| Rank | Consignee Name                    | Consignee Address                                     | FOB USD (approx) |
+| ---- | --------------------------------- | ----------------------------------------------------- | ---------------- |
+| 1    | **RAJA FOODS LLC**                | 3700 ROSE ST, SCHILLER PARK, IL, USA                  | 152,992          |
+| 2    | **GURUDEV IMPORTS INV**           | 90 STULTS ROAD, DAYTON, NJ 08810, USA                 | 128,873          |
+| 3    | **BABCO FOODS INTERNATIONAL LLC** | 238 ST. NICHOLAS AVE, SOUTH PLAINFIELD, NJ 07080, USA | 92,879           |
+| 4    | **ZEE TRADERS LLC 9761**          | BUTTERFLY TRAIL, FRISCO, TX 75035, USA                | 84,503           |
+| 5    | **PREMIER FOOD SUPPLIES LLC**     | 1783–1801 NORTH AMERICA TROY, MI, USA                 | 82,771           |
+| 6    | **TO THE ORDER OF**               | U.S.A., USA                                           | 72,857           |
+| 7    | **SUBB Z MANDI LLC**              | CLARKSBURG, MD 20871, USA                             | 62,885           |
+| 8    | **TO ORDER**                      | USA, USA                                              | 58,305           |
+| 9    | **TO ORDER**                      | UNITED STATES                                         | 55,661           |
+| 10   | **SUNRISE SPICES LLC**            | 2265 E OAKLAND ST, CHANDLER, AZ 85225, USA            | 55,224           |
+
+
 ## Risks & caveats
 - Dataset reflects Apr–Sep 2025 only; broader seasonality and country-specific compliance cycles may differ.
 - Quantities are standardized to kg via `STD QUANTITY`. Unit values are **USD/kg** (shipment-level) unless stated.
